@@ -7,12 +7,16 @@ body{
 p{
     font-family: 'Manrope', sans-serif;
     color: hsl(216, 8%, 48%);
+    
   
     
      
 }
 article{
     padding: 23px;
+}
+aside{
+    margin: 20px;
 }
 
 .content{
@@ -29,7 +33,7 @@ article{
     width: 70%;
     margin: 80px auto;
     border-radius: 10px;
-    height: 252px;
+    height: auto;
 
    
    
@@ -62,15 +66,8 @@ article{
 }
  .side{
      margin: 4px;
-     position: relative;
-     top: 18px;
  }
- .share{
-     position: relative;
-     bottom: 23px;
-     left: 22em;
-     font-size: 400;
- }
+ 
  
  #triangle-down {
     width: 0;
@@ -105,6 +102,13 @@ article{
       position: relative;
       bottom: 10px;
   }
+  .share{
+      position: relative;
+    font-size: 400;
+    left: 600px;
+    bottom: 40px;
+
+}
   .hidden{
       display: none;
   }
